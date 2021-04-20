@@ -1,0 +1,26 @@
+.navBarDiv {
+  width: 100%;
+  background-color: white;
+}
+
+.titleLogo {
+  width: 500px;
+}
+
+.flowerLogo {
+  width: 200px;
+}
+
+.navBarDiv ul {
+  list-style-type: none;
+}
+
+.navBarDiv ul li a {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(59, 80, 63);
+}
+
+.navBarDiv ul li .active {
+  color: rgb(174, 192, 177);
+}
