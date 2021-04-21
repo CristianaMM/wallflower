@@ -1,0 +1,34 @@
+.formContainer input,
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 5px;
+}
+.formContainer textarea {
+  height: 150px;
+}
+
+.formContainer button {
+  background-color: rgb(59, 80, 63);
+  border-radius: 5px;
+  padding: 5px 20px;
+  border: 1px solid;
+  color: white;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+.formContainer button:hover {
+  color: rgb(174, 192, 177);
+}
+
+.getInTouch {
+  color: rgb(59, 80, 63);
+  font-size: 60px;
+}
+
+.formContainer p {
+  margin-bottom: 60px;
+}

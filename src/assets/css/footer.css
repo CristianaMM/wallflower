@@ -1,7 +1,8 @@
 .footer {
-    background-color: rgb(174, 192, 177);
-  }
-  
-  .footer .bi {
-    font-size: 25px;
-  }
+  background-color: rgb(174, 192, 177);
+  border-top: 1px solid rgba(59, 80, 63, 0.8);
+}
+
+.footer .bi {
+  font-size: 25px;
+}
