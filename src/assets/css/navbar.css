@@ -1,6 +1,7 @@
 .navBarDiv {
   width: 100%;
   background-color: white;
+  border-bottom: 1px solid rgba(59, 80, 63, 0.8);
 }
 
 .titleLogo {
@@ -28,7 +29,7 @@
 
 #menuToggle {
   display: block;
-  position: fixed;
+  position: absolute;
   top: 30px;
   left: 20px;
   z-index: 1;
