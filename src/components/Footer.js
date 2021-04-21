@@ -8,6 +8,7 @@ export default function Footer() {
         <a
           className="p-3"
           target="_blank"
+          rel="noreferrer"
           href="https://www.facebook.com/The-Wall-Flower-Company-104859147546096"
         >
           <i className="bi bi-facebook"></i>
@@ -15,6 +16,7 @@ export default function Footer() {
         <a
           className="p-3"
           target="_blank"
+          rel="noreferrer"
           href="https://www.instagram.com/the_wall_flower_co/"
         >
           <i className="bi bi-instagram"></i>
