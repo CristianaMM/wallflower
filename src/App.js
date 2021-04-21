@@ -12,14 +12,12 @@ export default function App() {
     <BrowserRouter>
       <Navbar />
       <Switch>
-        <main>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/walls" component={Walls} />
-          <Route exact path="/services" component={Services} />
-          <Route exact path="/contact" component={ContactUs} />
-        </main>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/walls" component={Walls} />
+        <Route exact path="/services" component={Services} />
+        <Route exact path="/contact" component={ContactUs} />
       </Switch>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 }
