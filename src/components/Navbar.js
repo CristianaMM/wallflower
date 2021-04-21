@@ -16,19 +16,22 @@ export default function Navbar() {
     <div className="navBarDiv text-center pt-3">
       <div className="container">
         <div className="row justify-content-center">
-          <img
-            className="flowerLogo col-12"
-            src={flowerlogo}
-            alt="wall flower logo"
-          />
+          <div class="col-12">
+            <img
+              className="img-fluid flowerLogo"
+              src={flowerlogo}
+              alt="wall flower logo"
+            />
+          </div>
+          <div className="col-12">
+            <img
+              className="img-fluid titleLogo"
+              src={titlelogo}
+              alt="wall flower logo"
+            />
+          </div>
         </div>
-        <div className="row justify-content-center">
-          <img
-            className="titleLogo col-12"
-            src={titlelogo}
-            alt="wall flower logo"
-          />
-        </div>
+
         <ul id="mainMenu" className="p-0">
           {links.map((l, i) => {
             return (

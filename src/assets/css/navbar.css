@@ -103,7 +103,7 @@
     display: none;
   }
   .flowerLogo {
-    width: 150px;
+    max-width: 150px;
   }
   .titleLogo {
     padding: 20px 5px;
