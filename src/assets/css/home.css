@@ -4,3 +4,9 @@
   background-size: cover;
   height: 300px;
 }
+
+@media (max-width: 576px) {
+  .banner {
+    height: 150px;
+  }
+}
