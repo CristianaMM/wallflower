@@ -1,12 +1,54 @@
-.banner {
-  background-position: 50% 0%;
+.carouselImg {
+  height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 300px;
+  background-position: 10%;
+  border: 5px solid white;
+}
+
+.firstSection {
+  background-color: rgb(211, 224, 214);
+  padding: 100px;
+}
+
+.firstSection img {
+  width: 150%;
+  border-radius: 10%;
+}
+
+.firstSection button {
+  background-color: white;
+  border-radius: 5px;
+  padding: 8px 24px;
+  color: rgb(59, 80, 63);
+  box-shadow: black;
+  border: 2px solid transparent;
+}
+.firstSection button:hover {
+  border: 2px solid rgb(59, 80, 63);
+}
+
+.tea {
+  padding: 100px;
+  color: rgb(59, 80, 63);
+}
+
+.tea img {
+  width: 100%;
+  border-radius: 10%;
+}
+
+.tea button {
+  background-color: rgb(59, 80, 63);
+  border-radius: 5px;
+  padding: 5px 20px;
+  border: 1px solid;
+  color: white;
+}
+
+.tea button:hover {
+  color: rgb(174, 192, 177);
 }
 
 @media (max-width: 576px) {
-  .banner {
-    height: 150px;
-  }
 }

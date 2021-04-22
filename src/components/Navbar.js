@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import titlelogo from "../assets/images/titlelogo.jpg";
-import flowerlogo from "../assets/images/justflowerlogo.jpg";
+import titleLogo from "../assets/images/titleLogo.jpg";
+import flowerLogo from "../assets/images/flowerLogo.jpg";
 import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
@@ -19,14 +19,14 @@ export default function Navbar() {
           <div class="col-12">
             <img
               className="img-fluid flowerLogo"
-              src={flowerlogo}
+              src={flowerLogo}
               alt="wall flower logo"
             />
           </div>
           <div className="col-12">
             <img
               className="img-fluid titleLogo"
-              src={titlelogo}
+              src={titleLogo}
               alt="wall flower logo"
             />
           </div>
