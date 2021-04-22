@@ -23,19 +23,28 @@ export default function CarouselSection() {
     for (let i = 0; i < images.length; i = i + 2) {
       r.push([images[i], images[i + 1]]);
     }
-    console.log(r);
     return r;
   };
 
+  const renderImage = (key, image, size) => (
+    <div
+      key={key}
+      className={`carouselImg col-${size}`}
+      style={{ backgroundImage: `url(${image})` }}
+    ></div>
+  );
+
   const carouselMobile = (
-    <Carousel autoPlay infiniteLoop showThumbs={false} className="mb-4">
+    <Carousel
+      autoPlay
+      infiniteLoop
+      showThumbs={false}
+      className="smallScreenCarousel mb-4"
+    >
       {images.map((p, i) => {
         return (
           <div className="row justify-content-center" key={`small-screen-${i}`}>
-            <div
-              className="carouselImg col-12"
-              style={{ backgroundImage: `url(${p})` }}
-            ></div>
+            {renderImage(`image-small-${i}`, p, 12)}
           </div>
         );
       })}
@@ -43,32 +52,27 @@ export default function CarouselSection() {
   );
 
   const careouselDesktop = (
-    <Carousel autoPlay infiniteLoop showThumbs={false} className="mb-4">
+    <Carousel
+      autoPlay
+      infiniteLoop
+      showThumbs={false}
+      className="bigScreenCarousel mb-4"
+    >
       {groupImages().map((x, i) => (
         <div
           className="row justify-content-center"
           key={`big-screen-page-${i}`}
         >
-          {x.map((p, j) => {
-            return (
-              <div
-                className="carouselImg col-6"
-                style={{ backgroundImage: `url(${p})` }}
-                key={`big-screen-${j}`}
-              ></div>
-            );
-          })}
+          {x.map((p, j) => renderImage(`image-big-${j}`, p, 6))}
         </div>
       ))}
     </Carousel>
   );
 
-  const showMobile = window.innerWidth <= 576;
-
   return (
     <>
-      {showMobile && carouselMobile}
-      {!showMobile && careouselDesktop}
+      {carouselMobile}
+      {careouselDesktop}
     </>
   );
 }

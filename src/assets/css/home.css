@@ -55,6 +55,19 @@
   display: none;
 }
 
+.smallScreenCarousel {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .bigScreenCarousel {
+    display: none;
+  }
+  .smallScreenCarousel {
+    display: block;
+  }
+}
+
 @media (max-width: 768px) {
   .bigScreen {
     display: none;
