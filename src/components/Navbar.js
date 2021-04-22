@@ -8,7 +8,7 @@ export default function Navbar() {
   const links = [
     { name: "Home", link: "/" },
     { name: "Walls", link: "/walls" },
-    { name: "Services", link: "/services" },
+    { name: "You, Me & Tea", link: "/you-me-tea" },
     { name: "Contact Us", link: "/contact" },
   ];
 
@@ -16,7 +16,7 @@ export default function Navbar() {
     <div className="navBarDiv text-center pt-3">
       <div className="container">
         <div className="row justify-content-center">
-          <div class="col-12">
+          <div className="col-12">
             <img
               className="img-fluid flowerLogo"
               src={flowerLogo}
