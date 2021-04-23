@@ -9,7 +9,7 @@ export default function Tea() {
   return (
     <>
       <ScrollToTop />
-      <div className="youMeTea mb-5">
+      <div className="youMeTea container mb-5">
         <div className="row text-center align-items-center justify-content-center">
           <FirstSection />
           <BoxContent />

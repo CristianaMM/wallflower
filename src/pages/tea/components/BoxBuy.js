@@ -4,20 +4,19 @@ import etsy from "../../../assets/images/etsy.png";
 
 export default function BoxBuy() {
   return (
-    <div className="youMeTea">
-      <div className="row pt-5 pb-5 align-items-center text-center ">
-        <div className="col-5">
-          <a>
+    <div className="youMeTea container my-5">
+      <div className="row text-center justify-content-center p-3">
+        <div className="col-12 col-md-3">
+          <div className="buyCard p-3">
             <img src={etsy} alt="" />
-          </a>
+            <h3 className="pt-3">Buy Now!</h3>
+          </div>
         </div>
-        <div className="col-2 ">
-          <h1>OR</h1>
-        </div>
-        <div className="col-5  ">
-          <a className="sendMessageParent">
-            <img src={greenBall} alt="" />
-          </a>
+        <div className="col-12 col-md-3 offset-md-2">
+          <div className="buyCard p-3">
+            <img src={etsy} alt="" />
+            <h3 className="pt-3">Contact us!</h3>
+          </div>
         </div>
       </div>
     </div>

@@ -9,7 +9,7 @@ export default function BoxContent() {
         <ul>
           <li>Choice of coaster</li>
           <li>2 x tea bags</li>
-          <li>2 x biscuits ( varied flavour )</li>
+          <li>2 x biscuits (varied flavour)</li>
         </ul>
         <p className="text-center text-md-start">
           All on a bed of rose petals with the choice to add a hand written

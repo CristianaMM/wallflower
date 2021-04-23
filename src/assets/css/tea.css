@@ -1,14 +1,9 @@
-.youMeTea {
-  padding: 10px 100px;
-}
-
 .youMeTea img {
   width: 80%;
   border-radius: 10%;
 }
 
 .displayImages {
-  padding: 10px 100px;
   background-color: rgb(174, 192, 177);
 }
 .displayImages img {
@@ -38,11 +33,17 @@
 .sendMessageParent {
   position: relative;
 }
-@media (max-width: 576px) {
-  .youMeTea {
-    padding: 10px 20px;
-  }
-  .displayImages {
-    padding: 10px 20px;
-  }
+
+.buyCard {
+  box-shadow: 3px 3px 10px 0px rgb(0 0 0 / 16%);
+  border-radius: 20%;
+  border: 2px solid transparent;
+}
+
+.buyCard:hover {
+  border: 2px solid rgb(59, 80, 63);
+}
+
+.buyCard img {
+  width: 80%;
 }
