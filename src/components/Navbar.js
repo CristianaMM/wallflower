@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import titleLogo from "../assets/images/titleLogo.jpg";
+import titleLogo from "../assets/images/logoName.jpg";
 import flowerLogo from "../assets/images/flowerLogo.jpg";
 import { NavLink } from "react-router-dom";
 
