@@ -10,11 +10,9 @@ export default function ImagesDisplay() {
 
   return (
     <div className="displayImages">
-      <div className="container">
-        <div className="row text-center pt-5 pb-5">
-          <div className="col-12">
-            <p>Available in various designs for all your loved ones!</p>
-          </div>
+      <div className="container text-center pt-5 pb-5">
+        <h4>Available in various designs for all your loved ones!</h4>
+        <div className="row mt-4">
           {teaImages.map((p, i) => {
             return (
               <div className="col-6 col-md-3" key={`tea-preview-${i}`}>
@@ -31,19 +29,18 @@ export default function ImagesDisplay() {
             );
           })}
         </div>
-
-        <div className="modal fade" id="exampleModal">
-          <div className="modal-dialog">
-            <div className="modal-content  text-center">
-              <div className="row">
-                <div className="col-12  p-0">
-                  <img className="fullSizePhoto" src={modalImage} alt="" />
-                  <button
-                    type="button"
-                    className=" modalButton btn-close"
-                    data-bs-dismiss="modal"
-                  ></button>
-                </div>
+      </div>
+      <div className="modal fade" id="exampleModal">
+        <div className="modal-dialog">
+          <div className="modal-content  text-center">
+            <div className="row">
+              <div className="col-12  p-0">
+                <img className="fullSizePhoto" src={modalImage} alt="" />
+                <button
+                  type="button"
+                  className=" modalButton btn-close"
+                  data-bs-dismiss="modal"
+                ></button>
               </div>
             </div>
           </div>

@@ -4,7 +4,7 @@ import teaBox from "../../../assets/images/teaBox.jpg";
 export default function BoxContent() {
   return (
     <>
-      <div className="col-12 col-md-4  text-start p-5 order-2 order-md-1">
+      <div className="col-12 col-md-4  text-start order-2 order-md-1">
         <h5>Box includes:</h5>
         <ul>
           <li>Choice of coaster</li>
@@ -15,7 +15,7 @@ export default function BoxContent() {
           All on a bed of rose petals with the choice to add a hand written
           heart gift tag.
         </p>
-        <div className="text-center">
+        <div className="text-center mt-5">
           <button className="btn">
             <a href="#boxBuy">Buy Now ! </a>
           </button>

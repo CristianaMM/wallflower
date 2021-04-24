@@ -8,7 +8,6 @@
 
 .firstSection {
   background-color: rgb(211, 224, 214);
-  padding: 100px;
 }
 
 .firstSection img {
@@ -31,7 +30,6 @@
 }
 
 .tea {
-  padding: 100px;
   color: rgb(59, 80, 63);
 }
 
@@ -53,10 +51,6 @@
   color: rgb(174, 192, 177);
 }
 
-.smallScreen {
-  display: none;
-}
-
 .smallScreenCarousel {
   display: none;
 }
@@ -67,20 +61,5 @@
   }
   .smallScreenCarousel {
     display: block;
-  }
-}
-
-@media (max-width: 768px) {
-  .bigScreen {
-    display: none;
-  }
-  .smallScreen {
-    display: block;
-  }
-  .firstSection {
-    padding: 50px 70px;
-  }
-  .tea {
-    padding: 50px 70px;
   }
 }

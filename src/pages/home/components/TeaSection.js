@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 export default function TeaSection() {
   return (
-    <div className="tea">
+    <div className="container tea py-5">
       <div className="row text-center align-items-center">
         <div className="col-12 pb-5">
           <h1>NEW! Letterbox Gift Shop</h1>
