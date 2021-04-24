@@ -17,6 +17,7 @@
 }
 
 .firstSection button {
+  box-shadow: 3px 3px 10px 0px rgb(0 0 0 / 16%);
   background-color: white;
   border-radius: 5px;
   padding: 8px 24px;
@@ -40,10 +41,11 @@
 }
 
 .tea button {
+  box-shadow: 3px 3px 10px 0px rgb(0 0 0 / 50%);
   background-color: rgb(59, 80, 63);
   border-radius: 5px;
   padding: 8px 24px;
-  border: 1px solid;
+  border: 1px solid transparent;
   color: white;
 }
 

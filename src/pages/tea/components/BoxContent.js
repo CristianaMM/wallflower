@@ -15,6 +15,11 @@ export default function BoxContent() {
           All on a bed of rose petals with the choice to add a hand written
           heart gift tag.
         </p>
+        <div className="text-center">
+          <button className="btn">
+            <a href="#boxBuy">Buy Now ! </a>
+          </button>
+        </div>
       </div>
       <div className="col-12 col-md-5 order-1 order-md-2">
         <img src={teaBox} alt="" />
