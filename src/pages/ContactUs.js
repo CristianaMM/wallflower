@@ -22,7 +22,15 @@ export default function ContactUs() {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", name: firstName, email, message }),
+      body: encode({
+        "form-name": "contact",
+        firstName,
+        lastName,
+        email,
+        phone,
+        location,
+        message,
+      }),
     })
       .then(() => alert("Success!"))
       .catch((error) => alert(error));
