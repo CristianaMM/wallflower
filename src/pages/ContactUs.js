@@ -14,6 +14,8 @@ export default function ContactUs() {
   };
 
   const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(">>> here");
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -21,8 +23,6 @@ export default function ContactUs() {
     })
       .then(() => alert("Success!"))
       .catch((error) => alert(error));
-
-    e.preventDefault();
   };
 
   return (
@@ -38,7 +38,7 @@ export default function ContactUs() {
           </p>
         </div>
       </div>
-      <form onSubmit={handleSubmit}>
+      <form>
         <p>
           <label>
             Your Name:{" "}
@@ -72,7 +72,9 @@ export default function ContactUs() {
           </label>
         </p>
         <p>
-          <button type="submit">Send</button>
+          <button type="submit" onClick={handleSubmit}>
+            Send
+          </button>
         </p>
       </form>
       {/* <div className="row">
