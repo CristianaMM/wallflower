@@ -14,20 +14,15 @@ export default function ContactUs() {
           </p>
         </div>
       </div>
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" netlify>
         <p>
           <label>
-            Your Name: <input type="text" name="name" />
+            Name <input type="text" name="name" />
           </label>
         </p>
         <p>
           <label>
-            Your Email: <input type="email" name="email" />
-          </label>
-        </p>
-        <p>
-          <label>
-            Message: <textarea name="message"></textarea>
+            Email <input type="email" name="email" />
           </label>
         </p>
         <p>
