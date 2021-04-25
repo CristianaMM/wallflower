@@ -14,7 +14,27 @@ export default function ContactUs() {
           </p>
         </div>
       </div>
-      <div className="row">
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>
+            Your Name: <input type="text" name="name" />
+          </label>
+        </p>
+        <p>
+          <label>
+            Your Email: <input type="email" name="email" />
+          </label>
+        </p>
+        <p>
+          <label>
+            Message: <textarea name="message"></textarea>
+          </label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+      {/* <div className="row">
         <div className="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
           <div className="row">
             <div className="col-12 col-md-6 mb-3">
@@ -40,7 +60,7 @@ export default function ContactUs() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
