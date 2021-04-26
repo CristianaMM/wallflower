@@ -4,7 +4,7 @@ import teaBox from "../../../assets/images/teaBox.jpg";
 export default function BoxContent() {
   return (
     <>
-      <div className="col-12 col-md-4  text-start order-2 order-md-1">
+      <div className="col-12 col-md-5 offset-md-1 col-lg-4 text-start order-2 order-md-1 mt-5 mt-md-0">
         <h5>Box includes:</h5>
         <ul>
           <li>Choice of coaster</li>
@@ -21,7 +21,7 @@ export default function BoxContent() {
           </button>
         </div>
       </div>
-      <div className="col-12 col-md-5 order-1 order-md-2">
+      <div className="col-12 col-md-5 col-lg-5 order-1 order-md-2">
         <img src={teaBox} alt="" />
       </div>
     </>
