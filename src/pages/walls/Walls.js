@@ -1,12 +1,13 @@
 import React from "react";
-import elaine from "../../assets/images/elaine.jpg";
+import { Link } from "react-router-dom";
+import elaina from "../../assets/images/elaine.jpg";
 import peterRabbit from "../../assets/images/peterRabbitWall.jpg";
 import jungle from "../../assets/images/jungleWall.jpg";
 import frame2 from "../../assets/images/frame2.jpg";
 
 export default function Walls() {
   const flowerWalls = [
-    { name: "Elaine", img: elaine },
+    { name: "Elaina", img: elaina },
     { name: "Artificial Grass Backdrop", img: jungle },
     { name: "Copper Piping Duo", img: frame2 },
     { name: "Peter Rabbit Party Package", img: peterRabbit },
@@ -22,15 +23,16 @@ export default function Walls() {
       <div className="row justify-content-center">
         {flowerWalls.map((w, i) => {
           return (
-            <div
+            <Link
               key={`wall-${i}`}
-              className="wallCard col-12 col-sm-8 col-md-4 m-2 p-0"
+              className="wallCard col-12 col-sm-8 col-md-5 col-lg-4 m-2 p-0"
               style={{ backgroundImage: `url(${w.img})` }}
+              to={`/walls/${w.name}`}
             >
               <div className="cardText">
                 <h5 className="text-center pt-1"> {w.name} </h5>
               </div>
-            </div>
+            </Link>
           );
         })}
       </div>
