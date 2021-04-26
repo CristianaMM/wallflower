@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./pages/home/Home";
-import Walls from "./pages/Walls";
+import Walls from "./pages/walls/Walls";
 import Tea from "./pages/tea/Tea";
 import ContactUs from "./pages/ContactUs";
 import Footer from "./components/Footer";

@@ -1,0 +1,25 @@
+.walls h1 {
+  color: rgb(59, 80, 63);
+  font-size: 60px;
+}
+
+.wallCard {
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 3px 3px 10px 0px rgb(0 0 0 / 16%);
+  border: 2px solid white;
+  cursor: pointer;
+  position: relative;
+}
+.wallCard:hover {
+  border: 2px solid rgb(59, 80, 63);
+}
+.cardText {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(174, 192, 177);
+  color: rgb(59, 80, 63);
+}
