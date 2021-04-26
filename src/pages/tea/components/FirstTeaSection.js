@@ -1,7 +1,7 @@
 import React from "react";
 import teaLogo from "../../../assets/images/YouMeTeaLogo.jpg";
 
-export default function firstSection() {
+export default function FirstTeaSection() {
   return (
     <>
       <div className="col-12 col-sm-8 col-md-6 col-lg-4 py-4">
