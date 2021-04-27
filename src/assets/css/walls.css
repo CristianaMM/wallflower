@@ -1,7 +1,10 @@
-.walls h1,
-.wallItem h1 {
+.walls h1 {
   color: rgb(59, 80, 63);
   font-size: 60px;
+}
+
+.wallItem h2 {
+  color: rgb(59, 80, 63);
 }
 
 .wallCard {
@@ -16,7 +19,7 @@
 }
 
 .wallCard:hover {
-  border: 2px solid rgb(59, 80, 63);
+  border: 2px solid;
 }
 .cardText {
   position: absolute;
@@ -26,9 +29,21 @@
   color: rgb(59, 80, 63);
 }
 
-.carouselImg {
-  height: 200px;
+.itemCarouselImg {
+  height: 400px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+
+.wallsCarousel ul {
+  padding: 0;
+}
+
+.control-arrow:hover {
+  background: none !important;
+}
+
+.thumb {
+  height: 100px;
 }
