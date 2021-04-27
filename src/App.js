@@ -7,10 +7,12 @@ import WallItem from "./pages/walls/WallItem";
 import Tea from "./pages/tea/Tea";
 import ContactUs from "./pages/ContactUs";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />

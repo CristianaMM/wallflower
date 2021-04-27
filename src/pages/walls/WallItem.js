@@ -6,11 +6,11 @@ import { wallsInfo } from "../../utils";
 export default function WallItem(props) {
   const { wallName } = props.match.params;
 
-  const wallDetails = wallsInfo.filter((w) => w.name === wallName);
+  const wallDetails = wallsInfo.find((w) => w.name === wallName);
 
   const wallDisplay = (
     <>
-      <h2 className="text-center">{wallDetails[0].name}</h2>
+      <h2 className="text-center">{wallDetails.name}</h2>
       <div className="row align-items-center text-center my-4">
         <div className="col-12 col-md-6">
           <Carousel
@@ -20,12 +20,12 @@ export default function WallItem(props) {
             showArrows
             renderIndicator={() => null}
             renderThumbs={() =>
-              wallDetails[0].photos.map((p) => (
+              wallDetails.photos.map((p) => (
                 <img className="thumb" src={p} alt="" />
               ))
             }
           >
-            {wallDetails[0].photos.map((p, i) => {
+            {wallDetails.photos.map((p, i) => {
               return (
                 <div
                   className="itemCarouselImg"
@@ -36,9 +36,9 @@ export default function WallItem(props) {
           </Carousel>
         </div>
         <div className="col-12 col-md-5 offset-md-1 text-justify">
-          <p>{wallDetails[0].text}</p>
+          <p>{wallDetails.text}</p>
           <p>
-            <strong>Dimentions:</strong> {wallDetails[0].dimensions}
+            <strong>Dimentions:</strong> {wallDetails.dimensions}
           </p>
         </div>
       </div>
