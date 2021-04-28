@@ -7,9 +7,12 @@
   font-weight: bold;
 }
 .accordion,
-.accordion__item {
+.accordion__item,
+.accordion__heading,
+.question {
   outline: none !important;
   border: 0 !important;
+  background-color: yellow;
 }
 
 .question {
