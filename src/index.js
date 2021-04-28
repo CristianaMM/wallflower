@@ -7,6 +7,7 @@ import "./assets/css/footer.css";
 import "./assets/css/walls.css";
 import "./assets/css/contact.css";
 import "./assets/css/tea.css";
+import "./assets/css/faq.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import App from "./App";
 
