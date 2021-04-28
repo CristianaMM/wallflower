@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import {
   Accordion,
   AccordionItem,
@@ -13,8 +15,8 @@ export default function FAQs() {
     <div className="container faq">
       <h1 className="text-center">Frequently Asked Questions</h1>
       <p className="text-center">
-        <a href={"/contact"}>Contact us</a> if you are unable to find the answer
-        to your question.{" "}
+        <Link to={"/contact"}>Contact us</Link> if you are unable to find the
+        answer to your question.
       </p>
 
       <Accordion className="py-5" allowZeroExpanded={true}>
