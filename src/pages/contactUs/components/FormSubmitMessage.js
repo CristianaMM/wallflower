@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Success(props) {
+export default function FormSubmitMessage(props) {
   const { handleReturn, icon, smallMessage, bigMessage, color } = props;
   return (
     <div className="row">
