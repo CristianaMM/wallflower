@@ -52,3 +52,33 @@ export const wallsInfo = [
     dimensions: "Costume fits adults up to 6ft, shoe size 7-11",
   },
 ];
+
+export const faqs = [
+  {
+    q: `How do I book?`,
+    a: `Please <a href="/contact">message us</a>, don't forget to mention the event type, date, venue and
+    time required to be set up by. We will check our availability and get back to you asap.`,
+  },
+  {
+    q: `What areas do you cover?`,
+    a: `We cover South, East and West Wales. All travel costs are included in your personal quote.`,
+  },
+  {
+    q: `How much does it cost to hire your event decor?`,
+    a: `Our prices are based on £100 for up to 4 hours or £150 all day and night.
+  Please contact us for a free quote, as prices do vary on packages.`,
+  },
+  {
+    q: `Do I have to pay deposit?`,
+    a: `A £25 non-refundable deposit is required to secure the date. The balance is due the week before the
+  event takes place.`,
+  },
+  {
+    q: `Is my deposit refundable?`,
+    a: `No, your £25 deposit in non-refundable. If you need to cancel, the deposit can be transferred to any of our other services.`,
+  },
+  {
+    q: `What if I need to cancel?`,
+    a: `If you need to cancel your order you should <a href="/contact">contact us</a> in the first instance. The deposit can be transferred to any of our other services.`,
+  },
+];
