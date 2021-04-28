@@ -5,7 +5,7 @@ import Home from "./pages/home/Home";
 import Walls from "./pages/walls/Walls";
 import WallItem from "./pages/walls/WallItem";
 import Tea from "./pages/tea/Tea";
-import ContactUs from "./pages/ContactUs";
+import ContactUs from "./pages/contactUs/ContactUs";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 

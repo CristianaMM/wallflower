@@ -27,7 +27,7 @@ export default function WallItem(props) {
                       className="thumb"
                       src={p}
                       alt=""
-                      key={`image-${wallDetails.name}-${i}`}
+                      key={`thumb-${wallDetails.name}-${i}`}
                     />
                   ))
                 }
@@ -35,6 +35,7 @@ export default function WallItem(props) {
                 {wallDetails.photos.map((p, i) => {
                   return (
                     <div
+                      key={`carouselIMG-${wallDetails.name}-${i}`}
                       className="itemCarouselImg"
                       style={{ backgroundImage: `url(${p})` }}
                     ></div>
