@@ -30,6 +30,10 @@ export default function ContactUs() {
     if (!email) {
       errors.push("email");
     }
+    if (email && !validateEmail(email)) {
+      errors.push("invalidEmail");
+      errors.push("email");
+    }
     if (!message) {
       errors.push("message");
     }
@@ -66,6 +70,11 @@ export default function ContactUs() {
     setLocation("");
     setMessage("");
   };
+
+  function validateEmail(email) {
+    const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+  }
 
   return (
     <div className="formContainer container py-5">
@@ -109,6 +118,14 @@ export default function ContactUs() {
                   ></input>
                 </div>
                 <div className="col-12 mb-3">
+                  {inputErrors.includes("invalidEmail") && (
+                    <p
+                      className="mb-0"
+                      style={{ color: "red", fontSize: "12px" }}
+                    >
+                      Invalid email
+                    </p>
+                  )}
                   <input
                     style={
                       inputErrors.includes("email")
