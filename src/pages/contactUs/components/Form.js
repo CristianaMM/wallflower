@@ -1,43 +1,24 @@
-import React, { useState } from "react";
+import React from "react";
 
-export default function ContactUs() {
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [location, setLocation] = useState("");
-  const [message, setMessage] = useState("");
-
-  const encode = (data) => {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-      )
-      .join("&");
-  };
-
-  const handleSubmit = (e) => {
-    // TODO handle required fields
-    e.preventDefault();
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({
-        "form-name": "contact",
-        firstName,
-        lastName,
-        email,
-        phone,
-        location,
-        message,
-      }),
-    })
-      .then(() => alert("Success!"))
-      .catch((error) => alert(error));
-  };
-
+export default function Form(props) {
+  const {
+    setFirstName,
+    setLastName,
+    setEmail,
+    setPhone,
+    setLocation,
+    setMessage,
+    inputErrors,
+    handleSubmit,
+    firstName,
+    lastName,
+    email,
+    phone,
+    location,
+    message,
+  } = props;
   return (
-    <div className="formContainer container py-5">
+    <>
       <div className="row text-center">
         <div className="col-12">
           <h1 className="getInTouch">Get In Touch</h1>
@@ -54,8 +35,13 @@ export default function ContactUs() {
           <div className="row">
             <div className="col-12 col-md-6 mb-3">
               <input
+                style={
+                  inputErrors.includes("firstName")
+                    ? { borderColor: "red" }
+                    : null
+                }
                 type="text"
-                placeholder=" First Name*"
+                placeholder="First Name*"
                 name="firstName"
                 value={firstName}
                 onChange={(e) => setFirstName(e.target.value)}
@@ -72,6 +58,9 @@ export default function ContactUs() {
             </div>
             <div className="col-12 mb-3">
               <input
+                style={
+                  inputErrors.includes("email") ? { borderColor: "red" } : null
+                }
                 type="email"
                 placeholder=" Email*"
                 name="email"
@@ -99,6 +88,11 @@ export default function ContactUs() {
             </div>
             <div className="col-12 mb-3">
               <textarea
+                style={
+                  inputErrors.includes("message")
+                    ? { borderColor: "red" }
+                    : null
+                }
                 type="text"
                 placeholder=" Message*"
                 name="message"
@@ -114,6 +108,6 @@ export default function ContactUs() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

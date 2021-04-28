@@ -36,7 +36,7 @@ export const wallsInfo = [
     photos: [frame, frame2, frame3],
     text: `Sometimes less is more!! Our copper piping duo, creates a real centre
     piece talking point. Our frame comes with an understated
-    garland and matching cake hoop. these look best when against a neutral
+    garland and matching cake hoop. These look best when against a neutral
     background. We can add light, colour and extra greenery to suit your
     style.`,
     dimensions: "7ft H x 4ft W",
