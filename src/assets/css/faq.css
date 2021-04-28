@@ -6,7 +6,8 @@
 .faq a {
   font-weight: bold;
 }
-.accordion {
+.accordion,
+.accordion__item {
   outline: none !important;
   border: 0 !important;
 }
