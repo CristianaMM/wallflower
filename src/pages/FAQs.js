@@ -19,7 +19,7 @@ export default function FAQs() {
         answer to your question.
       </p>
 
-      <Accordion className="py-5" allowZeroExpanded={true}>
+      <Accordion className="accordion py-5" allowZeroExpanded={true}>
         {faqs.map((q, i) => {
           return (
             <AccordionItem key={`FAQ-item-${i}`}>

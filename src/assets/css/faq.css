@@ -6,6 +6,10 @@
 .faq a {
   font-weight: bold;
 }
+.accordion {
+  outline: none !important;
+  border: 0 !important;
+}
 
 .question {
   color: rgb(59, 80, 63);
