@@ -12,7 +12,7 @@ export default function TeaSection() {
       <div className="row text-center align-items-center">
         <div className="col-12 pb-5">
           <h1>NEW! Letterbox Gift Shop</h1>
-          <p>Give the gift off a cuppa</p>
+          <p>Give the gift of a cuppa</p>
         </div>
         <div className="col-12 col-md-4 offset-md-1 pb-5 pb-md-1">
           <img src={teaTitle} alt="" />

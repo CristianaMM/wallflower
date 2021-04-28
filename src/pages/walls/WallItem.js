@@ -17,9 +17,9 @@ export default function WallItem(props) {
             <div className="col-12 col-md-6">
               <Carousel
                 className="wallsCarousel"
+                showStatus={false}
                 showThumbs
                 infiniteLoop
-                showArrows
                 renderIndicator={() => null}
                 renderThumbs={() =>
                   wallDetails.photos.map((p, i) => (

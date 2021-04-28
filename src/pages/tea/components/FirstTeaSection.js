@@ -8,7 +8,7 @@ export default function FirstTeaSection() {
         <img src={teaLogo} alt="tea letterbox" />
       </div>
       <div className="col-12 py-4">
-        <h5>Give the gift off a cuppa</h5>
+        <h5>Give the gift of a cuppa</h5>
         <p>
           Do you know someone who could do with a little tea break? Then give
           them no excuse and send them a tea box in the post.
