@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import FormMessage from "./components/FormSubmitMessage";
-import FailedMessage from "./components/Failure";
 
 export default function ContactUs() {
   const [firstName, setFirstName] = useState("");
