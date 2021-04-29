@@ -22,7 +22,7 @@ export default function BoxContent() {
         </div>
       </div>
       <div className="col-12 col-md-5 col-lg-5 order-1 order-md-2">
-        <img src={teaBox} alt="" />
+        <img src={teaBox} alt="tea letter box" />
       </div>
     </>
   );

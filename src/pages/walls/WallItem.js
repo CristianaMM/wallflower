@@ -26,7 +26,7 @@ export default function WallItem(props) {
                     <img
                       className="thumb"
                       src={p}
-                      alt=""
+                      alt="flowerwall photo"
                       key={`thumb-${wallDetails.name}-${i}`}
                     />
                   ))

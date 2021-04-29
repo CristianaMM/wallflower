@@ -29,7 +29,7 @@ export default function WallsSection() {
             </div>
           </div>
           <div className="col-12 col-md-6 col-lg-5">
-            <img src={firstImage} alt="" />
+            <img src={firstImage} alt="girl in front of white flower wall" />
           </div>
           <div className="d-block d-md-none pt-5">
             <div className="col-12">

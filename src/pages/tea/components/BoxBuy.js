@@ -15,7 +15,7 @@ export default function BoxBuy() {
           >
             <div className="buyCard h-100 p-3">
               <div className="row h-100 flex-column align-items-center justify-content-between">
-                <img src={etsy} alt="" />
+                <img src={etsy} alt="etsy store link" />
                 <h3 className="pt-3">Buy Now!</h3>
               </div>
             </div>
@@ -25,7 +25,7 @@ export default function BoxBuy() {
           <Link to="/contact">
             <div className="buyCard h-100 p-3">
               <div className="row h-100 flex-column align-items-center justify-content-between">
-                <img src={letter} alt="" />
+                <img src={letter} alt="letter" />
                 <h3 className="pt-3">Contact us!</h3>
               </div>
             </div>

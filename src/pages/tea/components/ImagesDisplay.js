@@ -23,7 +23,7 @@ export default function ImagesDisplay() {
                   data-bs-target="#exampleModal"
                   onClick={() => setModalImage(p)}
                 >
-                  <img src={p} alt="" />
+                  <img src={p} alt="tea box" />
                 </button>
               </div>
             );
@@ -35,7 +35,7 @@ export default function ImagesDisplay() {
           <div className="modal-content  text-center">
             <div className="row">
               <div className="col-12  p-0">
-                <img className="fullSizePhoto" src={modalImage} alt="" />
+                <img className="fullSizePhoto" src={modalImage} alt="tea box" />
                 <button
                   type="button"
                   className=" modalButton btn-close"

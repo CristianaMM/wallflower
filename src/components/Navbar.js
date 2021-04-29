@@ -28,7 +28,7 @@ export default function Navbar() {
               <img
                 className="img-fluid titleLogo"
                 src={titleLogo}
-                alt="wall flower logo"
+                alt="wall flower logo title"
               />
             </div>
           </Link>
