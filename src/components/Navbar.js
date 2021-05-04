@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import titleLogo from "../assets/images/logoName.jpg";
-import flowerLogo from "../assets/images/flowerLogo.jpg";
+import titleLogo from "../assets/images/logoName.png";
+import flowerLogo from "../assets/images/flowerLogo.png";
 import { NavLink, Link } from "react-router-dom";
 
 export default function Navbar() {

@@ -9,7 +9,7 @@ export default function WallsSection() {
         <div className="row align-items-center text-center text-md-start">
           <div className="col-12 col-md-6 col-lg-7">
             <div className="row">
-              <div className="col-12">
+              <div className="col-12 pb-3 pb-md-0">
                 <h1>Flower Walls - Available to Hire</h1>
               </div>
               <div className="d-none d-md-block">
