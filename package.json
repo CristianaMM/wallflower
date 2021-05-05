@@ -1,5 +1,6 @@
 {
   "name": "wallflower",
+  "description": "The Wall Flower Company - Flower Walls available to hire throughout South, East and West Wales.",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
