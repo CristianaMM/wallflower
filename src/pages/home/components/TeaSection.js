@@ -8,28 +8,28 @@ import { Link } from "react-router-dom";
 
 export default function TeaSection() {
   return (
-    <div className="tea">
+    <div className="container tea py-5">
       <div className="row text-center align-items-center">
         <div className="col-12 pb-5">
           <h1>NEW! Letterbox Gift Shop</h1>
-          <p>Give the gift off a cuppa</p>
+          <p>Give the gift of a cuppa</p>
         </div>
         <div className="col-12 col-md-4 offset-md-1 pb-5 pb-md-1">
-          <img src={teaTitle} alt="" />
+          <img src={teaTitle} alt="Tea letter box logo" />
         </div>
         <div className="col-12 col-md-5 offset-md-1">
           <div className="row g-4 pb-3">
             <div className="col-6">
-              <img src={tea1} alt="" />
+              <img src={tea1} alt="tea box" />
             </div>
             <div className="col-6">
-              <img src={tea2} alt="" />
+              <img src={tea2} alt="tea box" />
             </div>
             <div className="col-6">
-              <img src={tea3} alt="" />
+              <img src={tea3} alt="tea box" />
             </div>
             <div className="col-6">
-              <img src={tea4} alt="" />
+              <img src={tea4} alt="tea box" />
             </div>
           </div>
         </div>

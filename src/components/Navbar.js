@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import titleLogo from "../assets/images/logoName.jpg";
-import flowerLogo from "../assets/images/flowerLogo.jpg";
-import { NavLink } from "react-router-dom";
+import titleLogo from "../assets/images/logoName.png";
+import flowerLogo from "../assets/images/flowerLogo.png";
+import { NavLink, Link } from "react-router-dom";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -16,20 +16,22 @@ export default function Navbar() {
     <div className="navBarDiv text-center pt-3">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-12">
-            <img
-              className="img-fluid flowerLogo"
-              src={flowerLogo}
-              alt="wall flower logo"
-            />
-          </div>
-          <div className="col-12">
-            <img
-              className="img-fluid titleLogo"
-              src={titleLogo}
-              alt="wall flower logo"
-            />
-          </div>
+          <Link to="/">
+            <div className="col-12">
+              <img
+                className="img-fluid flowerLogo"
+                src={flowerLogo}
+                alt="wall flower logo"
+              />
+            </div>
+            <div className="col-12">
+              <img
+                className="img-fluid titleLogo"
+                src={titleLogo}
+                alt="wall flower logo title"
+              />
+            </div>
+          </Link>
         </div>
 
         <ul id="mainMenu" className="p-0">

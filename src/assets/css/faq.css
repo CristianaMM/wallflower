@@ -1,0 +1,28 @@
+.faq h1 {
+  color: rgb(59, 80, 63);
+  font-size: 40px;
+}
+
+.faq a {
+  font-weight: bold;
+}
+.accordion,
+.accordion__item,
+.accordion__heading,
+.question {
+  outline: none !important;
+  border: 0 !important;
+}
+
+.question {
+  color: rgb(59, 80, 63);
+  font-size: 20px;
+}
+
+.question[aria-expanded="true"] .iconRight {
+  display: none;
+}
+
+.question[aria-expanded="false"] .iconDown {
+  display: none;
+}
