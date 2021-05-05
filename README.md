@@ -16,6 +16,7 @@ Currently the wesite is deployed everytime a new PR is merged to `main` branch. 
 
 - `netlify deploy` --> deploy to draft url
 - `netlify deploy --prod` --> deploy to prod
+- On prompt for source folder, type `./build`
 
 ### More info
 
