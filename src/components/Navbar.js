@@ -8,7 +8,7 @@ export default function Navbar() {
   const links = [
     { name: "Home", link: "/" },
     { name: "Walls", link: "/walls" },
-    { name: "You, Me & Tea", link: "/you-me-tea" },
+    // { name: "You, Me & Tea", link: "/you-me-tea" },
     { name: "Contact Us", link: "/contact" },
   ];
 

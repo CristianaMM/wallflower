@@ -8,6 +8,8 @@ import jungle2 from "./assets/images/jungleWall2.jpg";
 import frame from "./assets/images/frame2.jpg";
 import frame2 from "./assets/images/frame.jpg";
 import frame3 from "./assets/images/cakeframe.jpg";
+import autumnCooper from "./assets/images/autumnCakeframe.jpg";
+import greenCooper from "./assets/images/GreenCooperFrame.jpg";
 
 export const wallsInfo = [
   {
@@ -33,7 +35,7 @@ export const wallsInfo = [
   {
     name: "Copper Piping Duo",
     mainPhoto: frame,
-    photos: [frame, frame2, frame3],
+    photos: [frame, frame2, frame3, autumnCooper, greenCooper],
     text: `Sometimes less is more!! Our Copper Piping Duo, creates a real centre
     piece talking point. Our frame comes with an understated
     garland and matching cake hoop. These look best when against a neutral
