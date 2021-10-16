@@ -1,5 +1,4 @@
 import React from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import babyWall from "../../../assets/images/babyWall.jpg";
 import babyShower from "../../../assets/images/pinkBabyShower.jpg";
