@@ -40,11 +40,11 @@ export default function WallsSection() {
                 opportunity, for your special occasion.
               </p>
             </div>
-            <div className="col-12 pt-5">
+            {/* <div className="col-12 pt-5">
               <button className="btn">
                 <Link to="/walls">See our walls</Link>
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
