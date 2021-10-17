@@ -7,7 +7,7 @@
 }
 
 .firstSection {
-  background-color: rgb(211, 224, 214);
+  background-color: white;
 }
 
 .firstSection img {
@@ -62,4 +62,8 @@
   .smallScreenCarousel {
     display: block;
   }
+}
+
+.cooperFrameDiv {
+  /* background-color: rgb(174, 192, 177); */
 }

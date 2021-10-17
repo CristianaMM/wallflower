@@ -7,7 +7,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const links = [
     { name: "Home", link: "/" },
-    { name: "Walls", link: "/walls" },
+    // { name: "Walls", link: "/walls" },
     // { name: "You, Me & Tea", link: "/you-me-tea" },
     { name: "Contact Us", link: "/contact" },
   ];
@@ -33,19 +33,18 @@ export default function Navbar() {
             </div>
           </Link>
         </div>
-
-        <ul id="mainMenu" className="p-0">
-          {links.map((l, i) => {
-            return (
-              <li className="d-inline-block p-3" key={`main-menu-${i}`}>
-                <NavLink to={l.link} exact>
-                  {l.name}
-                </NavLink>
-              </li>
-            );
-          })}
-        </ul>
       </div>
+      <ul id="mainMenu" className="p-0">
+        {links.map((l, i) => {
+          return (
+            <li className="d-inline-block p-3" key={`main-menu-${i}`}>
+              <NavLink to={l.link} exact>
+                {l.name}
+              </NavLink>
+            </li>
+          );
+        })}
+      </ul>
 
       <div
         id="menuToggle"

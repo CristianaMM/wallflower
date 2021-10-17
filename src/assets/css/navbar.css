@@ -3,6 +3,10 @@
   background-color: white;
 }
 
+.navBarDiv ul {
+  background-color: rgb(174, 192, 177)
+}
+
 .titleLogo {
   width: 500px;
   padding: 25px 5px;
@@ -23,7 +27,7 @@
 }
 
 .navBarDiv ul li .active {
-  color: rgb(174, 192, 177);
+  color: white;
 }
 
 #menuToggle {

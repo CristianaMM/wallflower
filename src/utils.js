@@ -35,7 +35,7 @@ export const wallsInfo = [
   {
     name: "Copper Piping Duo",
     mainPhoto: frame,
-    photos: [frame, frame2, frame3, autumnCooper, greenCooper],
+    photos: [frame2, frame3, autumnCooper, greenCooper],
     text: `Sometimes less is more!! Our Copper Piping Duo, creates a real centre
     piece talking point. Our frame comes with an understated
     garland and matching cake hoop. These look best when against a neutral

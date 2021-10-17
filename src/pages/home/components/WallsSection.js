@@ -1,5 +1,5 @@
 import React from "react";
-import firstImage from "../../../assets/images/whiteWallChild.jpg";
+import firstImage from "../../../assets/images/frame2.jpg";
 import { Link } from "react-router-dom";
 
 export default function WallsSection() {
@@ -10,21 +10,22 @@ export default function WallsSection() {
           <div className="col-12 col-md-6 col-lg-7">
             <div className="row">
               <div className="col-12 pb-3 pb-md-0">
-                <h1>Flower Walls - Available to Hire</h1>
+                <h1>Cooper Frame Pipping Duo - Available to Hire</h1>
               </div>
               <div className="d-none d-md-block">
                 <div className="col-12">
                   <p>
-                    Our walls are available throughout South, East and West
-                    Wales. Please see our choice of walls, to create the perfect
-                    photo opportunity, for your special occasion.
+                    Our Cooper Frame is available throughout South, East and
+                    West Wales. <br />
+                    Ideal to create the perfect photo opportunity, for your
+                    special occasion.
                   </p>
                 </div>
-                <div className="col-12 pt-5">
+                {/* <div className="col-12 pt-5">
                   <button className="btn">
                     <Link to="/walls">See our walls</Link>
                   </button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
