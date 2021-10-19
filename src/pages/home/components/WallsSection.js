@@ -10,7 +10,7 @@ export default function WallsSection() {
           <div className="col-12 col-md-6 col-lg-7">
             <div className="row">
               <div className="col-12 pb-3 pb-md-0">
-                <h1>Cooper Frame Pipping Duo - Available to Hire</h1>
+                <h1>Cooper Frame Piping Duo - Available to Hire</h1>
               </div>
               <div className="d-none d-md-block">
                 <div className="col-12">
